@@ -36,6 +36,7 @@ public class ThreadSchedulerActivity extends Activity {
             }
         });
 
+
         Consumer<Integer> consumer = new Consumer<Integer>() {
             @Override
             public void accept(Integer integer) throws Exception {
