@@ -19,6 +19,7 @@
         <activity android:name=".baseuse.BaseUseActivity" />
         <activity android:name=".threadcontrol.ThreadSchedulerActivity" />
         <activity android:name=".flatmap.FlatmapActivity" />
+        <activity android:name=".delay.DelayActivity" />
     </application>
 
 </manifest>

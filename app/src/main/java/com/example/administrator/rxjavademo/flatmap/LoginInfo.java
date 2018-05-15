@@ -8,6 +8,7 @@ public class LoginInfo {
     private String userId;
     private String psw;
     private int clientId;
+    private int reponseCode;
 
     public String getUserId() {
         return userId;
@@ -31,5 +32,13 @@ public class LoginInfo {
 
     public void setClientId(int clientId) {
         this.clientId = clientId;
+    }
+
+    public int getReponseCode() {
+        return reponseCode;
+    }
+
+    public void setReponseCode(int reponseCode) {
+        this.reponseCode = reponseCode;
     }
 }

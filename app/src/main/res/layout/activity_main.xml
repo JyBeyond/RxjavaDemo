@@ -19,4 +19,15 @@
         android:layout_height="wrap_content"
         android:text="线程调度" />
 
+    <Button
+        android:id="@+id/btn_flatmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FLATMAP操作符" />
+
+    <Button
+        android:id="@+id/btn_down_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="倒计时Demo" />
 </LinearLayout>

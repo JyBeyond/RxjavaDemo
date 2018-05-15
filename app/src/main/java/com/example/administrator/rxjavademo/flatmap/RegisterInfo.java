@@ -5,14 +5,15 @@ package com.example.administrator.rxjavademo.flatmap;
  */
 
 public class RegisterInfo {
-    private String userId;
+    private int userId;
     private String psw;
+    private String userName;
 
-    public String getUserId() {
+    public int getUserId() {
         return userId;
     }
 
-    public void setUserId(String userId) {
+    public void setUserId(int userId) {
         this.userId = userId;
     }
 
@@ -22,5 +23,13 @@ public class RegisterInfo {
 
     public void setPsw(String psw) {
         this.psw = psw;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 }
