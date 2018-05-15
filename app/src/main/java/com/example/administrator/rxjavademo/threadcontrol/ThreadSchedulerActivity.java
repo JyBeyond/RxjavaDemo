@@ -41,6 +41,7 @@ public class ThreadSchedulerActivity extends Activity {
             @Override
             public void accept(Integer integer) throws Exception {
                 Log.d(TAG, "consumer:" + Thread.currentThread().getName());
+
             }
         };
         observable.subscribeOn(Schedulers.newThread())
